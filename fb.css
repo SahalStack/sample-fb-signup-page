@@ -1,0 +1,131 @@
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #3b5998;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.logo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+
+  margin-top: 20px;
+}
+.logo-left {
+  margin-right: 30px;
+}
+.login-Controls {
+  width: 50%;
+  font-weight: 600;
+}
+#loginbtn {
+  font-weight: 600;
+  height: 27px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#forgotten {
+  margin-top: 10px;
+}
+
+.main-body {
+  display: flex;
+  justify-content: center;
+}
+.main-p {
+  font-size: 40px;
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+  text-shadow: 0 2px 4px rgba(77, 74, 74, 0.2),
+    0 4px 6px rgba(180, 165, 165, 0.3), 0 6px 8px rgba(124, 123, 123, 0.4);
+}
+.left {
+  width: 45%;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+#earthpng {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 3px;
+  margin-left: 193px;
+}
+#theform {
+  cursor: pointer;
+  input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+}
+.inp {
+  border-radius: 3px;
+  height: 29px;
+  margin-right: 6px;
+  margin-bottom: 20px;
+}
+#inp2,
+#inp3 {
+  width: 356px;
+  margin-bottom: 20px;
+  height: 29px;
+  border-radius: 3px;
+}
+#dateSelector,
+#monthSelector,
+#yearSelector {
+  height: 29px;
+  margin-right: 10px;
+  font-weight: bold;
+  box-shadow: 2px 1px;
+  box-sizing: border-box;
+}
+.h4bday {
+  margin: 0 auto;
+  font-size: large;
+  font-weight: 400;
+}
+.thep {
+  background-color: #3b5998;
+  color: white;
+  width: 0 auto;
+  padding: 3px 6px;
+  font-weight: 500;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.radiobtn {
+  font-weight: bold;
+}
+.terms {
+  font-size: 16px;
+  color: rgb(99, 96, 96);
+  font-weight: bold;
+}
+.sign-up-btn {
+  width: 170px;
+  height: 38px;
+  font-size: larger;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
